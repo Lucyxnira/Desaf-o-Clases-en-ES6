@@ -22,7 +22,7 @@ class Cliente {
     }
 
     //Calculo de impuesto y deducciones
-    calcularImpuesto() {
+    calculoImpuesto() {
         return (this._impuesto.montoBrutoAnual - this._impuesto.deducciones) * 0.21;
     }
 
